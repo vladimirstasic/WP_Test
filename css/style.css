@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h1 {
+    margin-top: 8%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 120px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 75px;
+}
+
+h1:after {
+    content: " ";
+    display: block;
+    width: 65px;
+    height: 5px;
+    background-color: #c31431;
+    margin: 58px auto 73px;
+}
+
+h2 {
+    max-width: 950px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 67px;
+}
+
+header {
+    min-height: 80vh;
+    background-image: url(../img/diwanee-cover.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .nav div {
+    float: left;
+    width: 50%;
+}
+
+header .wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+header .wrapper:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+header .nav li {
+    list-style-type: none;
+    float: left;
+}
+
+header .nav li a {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #333333;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+header .nav li a:hover {
+    color: #c31431;
+}
+
+header h2 {
+    width: 60%;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 67px;
+}
+
+.features {
+    overflow: hidden;
+}
+
+.features .col-3 {
+    width: 33.33%;
+    background-color: #fbfbfb;
+    float: left;
+    text-align: center;
+    padding-top: 49px;
+    min-height: 480px;
+    padding-bottom: 50px;
+}
+
+.features .col-3:nth-child(2) {
+    background-color: #ededed;
+}
+
+.features .col-3:nth-child(1) {
+    background-image: url(../img/triangle-white.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: -200px 80px;
+}
+
+.features .col-3:nth-child(3) {
+    background-image: url(../img/square-white.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 356px 112px;
+}
+
+.features h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 4px;
+    line-height: 30px;
+    margin-top: 54px;
+}
+
+.features h1:after {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 2px;
+    margin: 38px auto 40px;
+    background-color: #cbcbcb;
+}
+
+.features p {
+    font-size: 24px;
+    color: #888;
+    line-height: 34px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jobs {
+    padding-top: 140px;
+}
+
+.jobs h4 {
+    color: #cbcbcb;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #cbcbcb;
+    font-weight: 300;
+    letter-spacing: 4px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.job .wrap {
+    max-width: 1050px;
+    margin: 0 auto;
+    min-height: 300px;
+    padding-top: 80px;
+}
+
+.job h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 2.33px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.job-description {
+    float: left;
+    width: 70%;
+}
+
+.job-action {
+    width: 30%;
+    float: right;
+}
+
+.job-action a {
+    display: block;
+    width: 200px;
+    height: 55px;
+    float: right;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+    line-height: 55px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.job-action a:hover {
+    background-color: #ededed;
+}
+
+.job .tags:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.job .tags a {
+    margin-top: 50px;
+    display: block;
+    padding: 5px 10px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+    color: #c31431;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.job .tags a:hover {
+    color: black;
+}
+
+.job-card:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.job:nth-of-type(even) {
+    background-color: #333;
+}
+
+.job:nth-of-type(even) h3 {
+    color: white;
+}
+
+.job:nth-of-type(even) {
+    color: #cbcbcb;
+}
+
+.job:nth-of-type(even) a {
+    color: white;
+}
+
+.job:nth-of-type(even) a:hover {
+    color: black;
+}
+
+.job:nth-of-type(even) .tags a:hover {
+    color: #c31431;
+}
+
+.jobs h1 {
+    font-size: 60px;
+    color: #333;
+    letter-spacing: 3px;
+    line-height: 75px;
+    font-weight: 600;
+}
+
+.jobs-footer {
+    min-height: 350px;
+    width: 100%;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.jobs-footer a {
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #cbcbcb;
+    line-height: 55px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.jobs-footer a:hover {
+    background-color: #ededed;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    min-height: 800px;
+    background-color: #fbfbfb;
+}
+
+.about .wrap {
+    width: 790px;
+    margin: 0 auto;
+}
+
+.about h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8f8482;
+    letter-spacing: 4px;
+    padding-top: 145px;
+    margin: 0;
+}
+
+.about h1 {
+    font-size: 60px;
+    color: #333;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.about p {
+    font-size: 24px;
+    color: #888;
+    line-height: 34px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.social {
+    width: 100%;
+    text-align: center;
+    min-height: 320px;
+}
+
+.social h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8f8482;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
+
+.social img {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.social .container {
+    padding-top: 68px;
+}
+
+footer {
+    background-color: #2d2d2d;
+    min-height: 470px;
+    display: inline-block;
+    width: 100%;
+}
+
+footer .col-3 {
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+
+footer span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+footer .col-3 p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #9B9B9B;
+    line-height: 28px;
+    margin: 0;
+}
+
+footer img {
+    position: relative;
+    top: 7px;
+}
+
+footer .wrap {
+    width: 1225px;
+    margin: 8% auto;
+    padding-left: 8%;
+    text-align: center;
+}
+
+.copy {
+    margin-top: -7px;
+    min-height: 70px;
+    width: 100%;
+    background-color: #242424;
+}
+
+.copy .wrap {
+    width: 1225px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.copyright {
+    float: left;
+    font-weight: 300;
+    font-size: 12px;
+    color: #5B5B5B;
+    letter-spacing: 2px;
+}
+
+.copy i {
+    float: right;
+    color: #5B5B5B;
+    margin-right: 17px;
+}
+
+#www {
+    float: right;
+    font-weight: 300;
+    font-size: 12px;
+    color: #5B5B5B;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-left: 13px;
+}
+
+.topnav .icon a {
+    display: none;
+}
+
+
+/* povecavam vrednosti da prelama vec na tabletu svuda */
+
+@media (max-width: 768px) {
+    .features .col-3 {
+        width: 100%;
+        min-height: 420px;
+    }
+    footer .col-3 {
+        width: 100%;
+        padding-left: 3%;
+    }
+    .about .wrap {
+        width: 100%;
+        text-overflow: ellipsis;
+    }
+    .about h1 {
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .job .wrap {
+        margin: 0 30px;
+    }
+    .job-description {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .job-action {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    header .wrapper {
+        padding: 0;
+    }
+    .nav-wrapper {
+        height: 60px;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    header h2 span{
+      display: none;
+    }
+    header h2:after {
+      content: 'digital media agency';         
+    }
+    header h2 {
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 21px; 
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .logo img{
+        padding-left: 10px;
+        padding-top: 8px;
+    }
+    .topnav .icon a {
+        display: inline-block;
+    }    
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }    
+    ul.topnav li {
+        float: left;
+    }    
+    ul.topnav li a {
+        display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 16px;
+    }    
+    ul.topnav li a:hover {
+        background-color: #555;
+    }    
+    ul.topnav li.icon {
+        display: none;
+    }
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    .features .col-3 p {
+        font-size: 20px;
+    }
+    .jobs h1 {
+        font-size: 45px;
+        line-height: 22px;
+    }
+    .jobs h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .job-description {
+        font-size: 15px;
+    }
+    .job h3 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .job .tags a {
+        margin-top: 10px;
+        font-size: 15px;
+        border: none;
+    }
+    .job .wrap {
+        min-height: 125px;
+        padding-top: 20px;
+    }
+    .job:nth-of-type(odd) {
+        background-color: #f8f7f5;
+    }
+    .job:nth-of-type(even) {
+        background-color: white;
+    }
+    .job:nth-of-type(even) h3 {
+        color: inherit;
+    }
+    .job:nth-of-type(even) {
+        color: inherit;
+    }
+    .job:nth-of-type(even) a {
+        color: #c31431;
+    }
+    .jobs-footer a {
+        width: 80%;
+    }
+    .jobs-footer {
+        min-height: 130px;
+        margin-top: 65px;
+    }
+    .about h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .about p {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 25px;
+    }
+    footer .wrap {
+        width: 100%;
+        padding-left: 0;
+    }
+    footer .col-3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .copy .wrap {
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+    .copy {
+        min-height: 115px;
+    }
+    .copyLinks {
+        position: relative;
+        right: 50px;
+        top: 10px;
+        width: 100%;
+    }
+    .copyright span {
+        display: none;
+    }
+    .copyright:after{
+        content: "2015 DIWANEE SERBIA";
+    }
+    .copyright {
+        padding-left: 16%;
+    }    
+}
+
